@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/etold"
+        android:ems="10"
+        android:hint="PIN cũ"
+        android:maxLength="4"
+        android:inputType="numberPassword"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/textView3"
+        android:layout_margin="10dp"
+        android:text="*PIN mặc định là 1234"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/etnew"
+        android:ems="10"
+        android:hint="PIN mới"
+        android:maxLength="4"
+        android:inputType="numberPassword"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/etrepin"
+        android:ems="10"
+        android:hint="Nhập lại PIN"
+        android:maxLength="4"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/savechange"
+        android:text="Lưu thay đổi"
+        android:background="#D4D5CE"
+        android:textColor="#042DF5"/>
+
+</LinearLayout>

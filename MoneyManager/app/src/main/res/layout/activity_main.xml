@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#E6CA77">
+
+    <Button
+        android:id="@+id/btn_khoanthu"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:background="#FFC107"
+        android:text="KHOẢN THU"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#F6F8F6"/>
+    <Button
+        android:id="@+id/btn_khoanchi"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFC107"
+        android:text="KHOẢN CHI"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#F6F8F6"/>
+    <Button
+        android:id="@+id/btn_thongke"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFC107"
+        android:text="THỐNG KÊ"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#F6F8F6"/>
+</LinearLayout>
